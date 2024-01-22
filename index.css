@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+}
+
+.nav-container {
+    height: 10vh;
+    width: 100vw;
+    background-color: #fa4d53;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-ul-container {
+    height: 100%;
+    width: 90%;
+    list-style-type: none;
+    font-family: "Bree Serif";
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg-container {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(135deg, #f5fc92, #ffe0fc, #ebaeea);
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20vh;
+}
+
+.section2 {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-img {
+    height: 70vh;
+    width: 100vw;
+}
+
+.section1-text {
+    padding: 30px;
+    font-family: "Roboto";
+}
+
+.section1-text-h1 {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.section1-text-p {
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.section1-text-btn {
+    background-color: #fa4d53;
+    border: none;
+    color: #ffffff;
+    height: 38px;
+    width: 160px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.section2-img-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+
+.section2-inner-img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image1 {
+    margin-bottom: 10px;
+}
+
+.section2-text-container {
+    width: 100vw;
+    background-color: #fa4d53;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.section2-text-h1 {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 33px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.section2-text-p {
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.section2-text-btn {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width:768px) {
+    .nav-ul-container {
+        display: flex;
+    }
+
+    .nav-li-menu-img {
+        display: none;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .section1-img {
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .section1-text-h1 {
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .section1-text-p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .section2 {
+        height: 50vh;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section2-img-container {
+        width: 50vw;
+        margin-bottom: 0px;
+    }
+
+    .section2-text-h1 {
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .section2-text-container {
+        padding: 30px;
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .section1-img {
+        height: 100vh;
+    }
+    
+    .section2{
+        height: 100vh;
+    }
+
+}
